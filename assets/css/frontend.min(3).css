@@ -1,0 +1,3 @@
+/*! wp-form-styler - v1.0.0 - 20-02-2017 */
+.wpcf7 input[type="text"],.wpcf7 input[type="email"].wpcf7 textarea{background-color:#ffffff;color:#333333;float:none;}.wpcf7 textarea{padding:20px;}.wpcf7 input[type="submit"]{padding:5px 20px 8px;float:none;}
+.wpcf7 input[type="text"], .wpcf7 input[type="email"] {display: inline-block;}
