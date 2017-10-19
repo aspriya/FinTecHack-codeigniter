@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'fintechhacklk.domaincommysql.com',
+	'username' => 'morafit',
+	'password' => 'Payanakalatamaldammataisewa',
 	'database' => 'fintechhack',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

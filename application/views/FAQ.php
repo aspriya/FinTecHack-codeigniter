@@ -4,9 +4,12 @@
 
     <head>
 
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" id="www-widgetapi-script" src="./FinTechHack_Files/www-widgetapi.js" async=""></script>
@@ -17,8 +20,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Start The SEO Framework by Sybre Waaijer -->
 
-         <meta name="description" content="Sri Lanka's 1st Fintech hackathon - Nations Trust FinTecHack 2017">
-         <meta property="og:url" content="https://www.fintechack.com"/>
+        <meta name="description" content="Sri Lanka's 1st Fintech hackathon - Nations Trust FinTecHack 2017">
+        <meta property="og:url" content="https://www.fintechack.com"/>
         <meta property="og:image" content="FintecHack 2017 @ Kaffeine Lab by Nations Trust Bank PLC">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
@@ -37,8 +40,8 @@
         <link rel="canonical" href="#">
         <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
         <link rel="dns-prefetch" href="http://s.w.org/">
-        <link rel="alternate" type="application/rss+xml" title="Elementor » Feed" href="http://pastemedia.org/elementor/feed/">
-        <link rel="alternate" type="application/rss+xml" title="Elementor » Comments Feed" href="http://pastemedia.org/elementor/comments/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Elementor » Feed" href="//pastemedia.org/elementor/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Elementor » Comments Feed" href="//pastemedia.org/elementor/comments/feed/">
         <script src="<?php echo base_url(); ?>assets/iframe_api"></script>
         <script src="<?php echo base_url(); ?>assets/iframe_api"></script>
         <script src="<?php echo base_url(); ?>assets/iframe_api"></script>
@@ -106,8 +109,8 @@
         <link rel="stylesheet" id="wp-form-styler-css" href="<?php echo base_url(); ?>assets/css/frontend.min(3).css" type="text/css" media="all">
         <link rel="stylesheet" id="oe-widgets-style-css" href="<?php echo base_url(); ?>assets/css/widgets.css" type="text/css" media="all">
         <link rel="stylesheet" id="omw-styles-css" href="<?php echo base_url(); ?>assets/css/style.min.css" type="text/css" media="all">
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-migrate.min.js"></script>
+        
+        
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jq-sticky-anything.min.js"></script>
         <link rel="https://api.w.org/" href="http://pastemedia.org/elementor/wp-json/">
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pastemedia.org/elementor/xmlrpc.php?rsd">
@@ -118,38 +121,38 @@
 
         <style>
 
-           .elementor embed, .elementor iframe, .elementor object, .elementor video {
-                    height: 108% !important;
-           }
-           
-           .image-cover{
-               display:none;
-           }
-           
+            .elementor embed, .elementor iframe, .elementor object, .elementor video {
+                height: 108% !important;
+            }
+
+            .image-cover{
+                display:none;
+            }
+
             @media(max-width:700px){
                 .elementor-185 .elementor-element.elementor-element-vjgqsc2 {
                     background-color: #000000;
                     margin-top: -187px !important;
                 }
-                
+
                 .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                      font-size: 30px !important;
-                  }
-                
+                    font-size: 30px !important;
+                }
+
                 .image-cover{
                     display:block;
                     width:100%;
                     height:auto;
                 }
-                
+
                 .image-cover img{
-                  width:100%;
-                  height:auto;
+                    width:100%;
+                    height:auto;
                 }
-                
+
                 .elementor-185 .elementor-element.elementor-element-x4fypzf > .elementor-container {
-                      min-height: 0;
-                  }
+                    min-height: 0;
+                }
 
                 .register-button{display:none;}
 
@@ -215,26 +218,26 @@
         <style type="text/css">
 
 
-        	/* custom taken from mora css edit  */
-        	#omw-415 {
+            /* custom taken from mora css edit  */
+            #omw-415 {
                 width: 800px;
                 padding: 20px
             }
-        	#omw-290 {
+            #omw-290 {
                 width: 400px;
                 height: 600px;
                 padding: 20px
             }
-        	#omw-281 {
+            #omw-281 {
                 width: 600px;
                 height: 450px;
                 padding: 0
             }
-        	#omw-267 {
+            #omw-267 {
                 width: 800px;
                 padding: 20px
             }
-        	#omw-256 {
+            #omw-256 {
                 width: 800px;
                 padding: 20px
             }
@@ -243,11 +246,11 @@
                 opacity: 0.6
             }
 
-        	#omw-222 {
+            #omw-222 {
                 height: 480px;
                 padding: 0
             }
-        	#omw-215 {
+            #omw-215 {
                 padding: 20px
             }
             #omw-204 {
@@ -325,49 +328,7 @@
 
 
 
-        <!-- custom scripts by Dilan-->
-
-        <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("2017/10/31 12:00:00").getTime();
-
-            // Update the count down every 1 second
-            var x = setInterval(function () {
-
-                // Get todays date and time
-                var now = new Date().getTime();
-
-                // Find the distance between now an the count down date
-                var distance = countDownDate - now;
-
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                // Output the result in an element with id="demo"
-                //  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                //+ minutes + "m " + seconds + "s ";
-
-                document.getElementById("day").innerHTML = days;
-                document.getElementById("hour").innerHTML = hours;
-                document.getElementById("min").innerHTML = minutes;
-                document.getElementById("sec").innerHTML = seconds;
-               // console.log(days +" "+hours+" "+minutes+" "+seconds);
-
-                // If the count down is over, write some text 
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("day").innerHTML = "00";
-                    document.getElementById("hour").innerHTML = "00";
-                    document.getElementById("min").innerHTML = "00";
-                    document.getElementById("sec").innerHTML = "00";
-                }
-            }, 1000);
-        </script>
-
-        <!--  Custom script by Dilan end-->
+       
 
 
         <!-- Custom by Dilan-->
@@ -530,19 +491,18 @@
         </script>
 
         <!---
-		mobile responsive logo sec
+        mobile responsive logo sec
         -->
 
         <script type="text/javascript">
-        	
-        	if(jQuery.browser.mobile)
-				{
-				   console.log('You are using a mobile device!');
-				}
-				else
-				{
-				   console.log('You are not using a mobile device!');
-				}
+
+            if (jQuery.browser.mobile)
+            {
+                console.log('You are using a mobile device!');
+            } else
+            {
+                console.log('You are not using a mobile device!');
+            }
         </script>
         <!-- Custom by Dilan End-->
     </head>
@@ -559,18 +519,18 @@
 
                     <!-- following is the section one - i.e home page -->
                     <section  data-id="x4fypzf" style="height: auto;" class="col-md-12 elementor-element elementor-element-x4fypzf elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-top elementor-section-content-middle elementor-section elementor-top-section"
-                             data-element_type="section">
+                              data-element_type="section">
                         <div class="elementor-background-video-container elementor-hidden-phone col-md-12">
                             <video poster=""  id="bgvid" playsinline autoplay muted loop>
                                 <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
                                 <source src="<?php echo base_url(); ?>assets/img/LogoAnimation.webm" type="video/webm">
                                 <source src="<?php echo base_url(); ?>assets/img/LogoAnimation.mp4" type="video/mp4">
                             </video>
-                            
+
                         </div>
 
-                       <div class="image-cover">
-                             <img src="<?php echo base_url(); ?>assets/img/cover.jpg">
+                        <div class="image-cover">
+                            <img src="<?php echo base_url(); ?>assets/img/cover.jpg">
                         </div>
 
                         <!--    <div class="elementor-background-overlay"></div> -->
@@ -592,7 +552,7 @@
                                                                         <!--
     
                                                                             <div class="elementor-widget-container">
-                                                                            <img src="<?php //echo base_url(); ?>assets/img/finTechHackLogoNEW.png" style="height:8em;width:15em"></img>
+                                                                            <img src="<?php //echo base_url();  ?>assets/img/finTechHackLogoNEW.png" style="height:8em;width:15em"></img>
                                                                         </div>
                                                                         -->
                                                                     </div>
@@ -619,7 +579,6 @@
                                                                                             <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#sponsor" style="background-color: #2cb5e9">ORGANIZERS</a></li>
                                                                                             <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#register" style="background-color: #2cb5e9">REGISTER</a></li>
                                                                                             <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#judges" style="background-color: #2cb5e9">JUDGES</a></li>
-                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="https://www.fintechack.com/faq" target="blank" style="background-color: #2cb5e9">FAQ</a></li>
                                                                                             <li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-239"><a href="#contact" style="background-color: #2cb5e9">CONTACT</a></li>
                                                                                         </ul>
                                                                                     </nav>
@@ -672,363 +631,11 @@
                             </div>
                         </div>
                     </section>
-                    <section data-id="vjgqsc2" style="" class="elementor-element elementor-element-vjgqsc2 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
-                             data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no" style="height:9.2em">
-
-                            <!-- countdown bar -->
-                            <div class="elementor-row">
-                                <div data-id="zbyz8n8" class="elementor-element elementor-element-zbyz8n8 elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="9gu3a5i" class="elementor-element elementor-element-9gu3a5i elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Join the Event</h2>
-                                                </div>
-                                            </div>
-                                            <!--<div data-id="mtkcdbq" class="elementor-element elementor-element-mtkcdbq elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-text-editor elementor-clearfix"><p></p></div>
-                    </div>
-                    </div>-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-id="ykzm5oy" class="elementor-element elementor-element-ykzm5oy elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="qt47826" class="elementor-element elementor-element-qt47826 elementor-countdown--label-block elementor-widget elementor-widget-countdown"
-                                                 data-element_type="countdown.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-countdown-wrapper" data-date="1506213600">
-                                                        <div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-days" id="day"></span> <span class="elementor-countdown-label">Days</span></div>
-                                                        <div
-                                                            class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-hours" id="hour"></span> <span class="elementor-countdown-label">Hours</span></div>
-                                                        <div
-                                                            class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-minutes" id="min"> </span> <span class="elementor-countdown-label">Minutes</span></div>
-                                                        <div
-                                                            class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-seconds" id="sec"></span> <span class="elementor-countdown-label">Seconds</span></div>
 
 
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section  data-id="gh24wak" class="elementor-element elementor-element-gh24wak elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                              id="info" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div data-id="3dx2e04" class="elementor-element elementor-element-3dx2e04 elementor-column elementor-col-100 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="jb3f2h0" class="elementor-element elementor-element-jb3f2h0 elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xxl">Nations Trust FinTecHack 2017</h2>
-                                                </div>
-                                            </div>
-                                            <div data-id="jqzc2mn" class="elementor-element elementor-element-jqzc2mn elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p>Nations Trust FinTecHack 2017 in collaboration with the University of Moratuwa and Sri Lanka Association for Artificial
-                                                            Intelligence </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <section data-id="8huc82z" class="elementor-element elementor-element-8huc82z elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section"
-                                                     data-element_type="section">
-                                                <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-row">
-                                                        <div data-id="5luwivi" class="elementor-element elementor-element-5luwivi elementor-column elementor-col-50 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="u332qxy" class="elementor-element elementor-element-u332qxy elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                                         data-element_type="icon-box.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-icon-box-wrapper">
-                                                                                <div class="elementor-icon-box-icon">
-                                                                                    <span class="elementor-icon elementor-animation-">
-                                                                                    </span>
-                                                                                </div>
-                                                                                <div class="elementor-icon-box-content">
-                                                                                    <h3 class="elementor-icon-box-title">
-                                                                                        <span>What is FintecHack ?</span>
-                                                                                    </h3>
-                                                                                    <p class="elementor-icon-box-description" style="text-align:justify;text-justify:inter-word;font-size:1.2em">A 12 hour FinTech hackathon of POC development where diverse ideas collide and the best ones emerge as a new product or service. It's a work place of creative fun with coding and designing together in teams for accelerated productivity. Shine in front of FinTech experts!</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="2rq8wrc" class="elementor-element elementor-element-2rq8wrc elementor-column elementor-col-10 elementor-inner-column"
-                                                             data-element_type="column">
-                                                        </div>
-                                                        <div data-id="y67l8na" class="elementor-element elementor-element-y67l8na elementor-column elementor-col-50 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="a2ukjhv" class="elementor-element elementor-element-a2ukjhv elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                                         data-element_type="icon-box.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-icon-box-wrapper">
-                                                                                <div class="elementor-icon-box-icon">
-                                                                                    <span class="elementor-icon elementor-animation-">
-                                                                                    </span>
-                                                                                </div>
-                                                                                <div class="elementor-icon-box-content">
-                                                                                    <h3 class="elementor-icon-box-title">
-                                                                                        <span>Who is it for ?</span>
-                                                                                    </h3>
-                                                                                    <p class="elementor-icon-box-description" style="text-align:justify;text-justify:inter-word;font-size:1.2em">All are welcome! Geeks in Fintech, AI, UI Designers, Coders, Idea Generators, Marketeers, Data Scientists, Mad Scientists....</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
-                    <!--dacfsdvfvfvvfvfvf-->
-                    <!--vdfvfvvfv-->
-                    <section   data-id="xg13l1d" style="background-color:lightblue" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                               id="prizes" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div data-id="vuhtr3s" class="elementor-element elementor-element-vuhtr3s elementor-column elementor-col-100 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="b2znyqq" class="elementor-element elementor-element-b2znyqq elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 style="text-align:center;margin-bottom: 1em" class="elementor-heading-title elementor-size-xxl">PRIZES</h2>
-                                                </div>
-
-                                                
-                                            </div>
-                                            <div data-id="53clr2b" class="elementor-element elementor-element-53clr2b elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <section data-id="3nbi4mv" class="elementor-element elementor-element-3nbi4mv elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-inner-section"
-                                                     data-element_type="section">
-                                                <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-row">
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-33 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/prize1.png" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="esm0oyw" class="elementor-element elementor-element-esm0oyw elementor-column elementor-col-33 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/prize2.png" class="attachment-large size-large">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-33 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/prize3.png" class="attachment-large" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                            </section>
-
-                                           
-                                                <div class="elementor-widget-container">
-                                                    <h2 style= "text-align:center;margin-bottom: 1em" class="elementor-heading-title elementor-size-xxl">FINANCING UPTO RUPEES ONE MILLION (LKR 1,000,000/-) FOR SELECTED IDEAS</h2>
-                                                </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!--venue section  OK-->
-                    <section  data-id="suqth1c" class="elementor-element elementor-element-suqth1c elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                              id="venue" data-element_type="section">
-                        <div class="elementor-background-overlay"></div>
-                        <div   class="elementor-container elementor-column-gap-wider">
-                            <div class="elementor-row">
-                                <div data-id="a4wmmec" class="elementor-element elementor-element-a4wmmec elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="ujc4dcs" class="elementor-element elementor-element-ujc4dcs elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xxl">VENUE</h2>
-                                                </div>
-                                            </div>
-                                            <div data-id="vma05ck" class="elementor-element elementor-element-vma05ck elementor-widget elementor-widget-divider" data-element_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div data-id="sac8mei" class="elementor-element elementor-element-sac8mei elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p>10<sup>th</sup> November 2017 at Kaffeine Lab</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-id="mn3wek9" class="elementor-element elementor-element-mn3wek9 elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="fb954rv" class="elementor-element elementor-element-fb954rv elementor-view-default elementor-widget elementor-widget-icon"
-                                                 data-element_type="icon.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-icon-wrapper">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div data-id="c3mc6q9" class="elementor-element elementor-element-c3mc6q9 elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p> Kaffeine Lab <br>No. 53/3B,<br> Gregory's Place, <br>Colombo 07.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div data-id="rl8gpo0" class="elementor-element elementor-element-rl8gpo0 elementor-mobile-align-center omw-open-modal elementor-widget elementor-widget-button"
-                                                 data-element_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a target="_blank" href="https://www.google.lk/maps/place/Kaffeine+Lab+Nations+Trust+Bank/@6.9085408,79.8689586,15.75z/data=!4m12!1m6!3m5!1s0x0:0x93658da39d76ff48!2sKaffeine+Lab+Nations+Trust+Bank!8m2!3d6.9104338!4d79.8726533!3m4!1s0x0:0x93658da39d76ff48!8m2!3d6.9104338!4d79.8726533"
-                                                           class="elementor-button-link elementor-button elementor-size-sm">
-                                                            <span class="elementor-button-content-wrapper">
-                                                                <span class="elementor-button-text">VIEW MAP</span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-id="4snpa69" class="elementor-element elementor-element-4snpa69 elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section-content-middle elementor-section elementor-top-section"
-                             id="register" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div data-id="19rq5b0" class="elementor-element elementor-element-19rq5b0 elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="3nd8zfa" class="elementor-element elementor-element-3nd8zfa elementor-widget elementor-widget-counter" data-element_type="counter.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-counter">
-                                                        <div class="elementor-counter-number-wrapper">
-                                                            <span class="elementor-counter-number-prefix"></span>
-                                                            <span class="elementor-counter-number" data-duration="1000" data-to-value="<?php echo $registered_count+20; ?>" data-delimiter="," id="registered_count"></span>
-                                                            <span class="elementor-counter-number-suffix"></span>
-                                                        </div>
-                                                        <div class="elementor-counter-title">TEAMS REGISTERED</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-id="ohkdmfk" class="elementor-element elementor-element-ohkdmfk elementor-column elementor-col-50 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="944thl4" class="elementor-element elementor-element-944thl4 elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xxl">REGISTER</h2>
-                                                </div>
-                                            </div>
-                                            <div data-id="0h1yr45" class="elementor-element elementor-element-0h1yr45 elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p>Got an innovative idea? Yes? Then wait no more!<br>Register your team before 31<sup>st</sup> October.</p>
-
-                                                         </div>
-                                                </div>
-                                            </div>
-                                            <div data-id="eygvpvp" class="elementor-element elementor-element-eygvpvp omw-open-modal elementor-widget elementor-widget-button"
-                                                 data-element_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a href="<?php echo base_url(); ?>registration" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow">
-                                                            <span class="elementor-button-content-wrapper">
-                                                                <span class="elementor-button-text">REGISTER NOW</span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
- <!-- .......  Judge panel ......... -->
-   <section   data-id="xg13l1d" style="background-color: #F1D1B6" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+                    <!-- .......  FAQ......... -->
+                    <section   data-id="xg13l1d" style="background-color: #F1D1B6" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
                                id="judges" data-element_type="section">
                         <div class="elementor-container elementor-column-gap-default">
                             <div class="elementor-row">
@@ -1038,10 +645,10 @@
                                         <div class="elementor-widget-wrap">
                                             <div data-id="b2znyqq" class="elementor-element elementor-element-b2znyqq elementor-widget elementor-widget-heading" data-element_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 style="text-align:center;margin-bottom: 1em" class="elementor-heading-title elementor-size-xxl">JUDGE PANEL</h2>
+                                                    <h2 style="text-align:center;margin-bottom: 1em" class="elementor-heading-title elementor-size-xxl">FAQ</h2>
                                                 </div>
 
-                                                
+
                                             </div>
                                             <div data-id="53clr2b" class="elementor-element elementor-element-53clr2b elementor-widget elementor-widget-text-editor"
                                                  data-element_type="text-editor.default">
@@ -1055,100 +662,345 @@
                                                      data-element_type="section">
                                                 <div class="elementor-container elementor-column-gap-default">
                                                     <div class="elementor-row">
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/fayaz_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/fayaz-hudah-4108689" target="_blank">Fayaz Hudah </a></h5> 
-                                                                            <p style="color:black;"> Programme Head at ICT Agency of Sri Lanka (ICTA) </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
 
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/thilak_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/thilak-piyadigama-3880b9a/" target="_blank"> Thilak Piyadigama </a></h5> <p style="color:black;">Chief Operating Officer at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/asanka_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/asanka-dharmawansa-465b4815/" target="_blank"> Dr. Asanka Dharmawansa </a></h5> <p style="color:black;">Lecturer, Wayamba University of Sri Lanka</p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/bandara_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> Bandara Jayathilake </h5> <p style="color:black;">DGM SME Banking at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="esm0oyw" class="elementor-element elementor-element-esm0oyw elementor-column elementor-col-25 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/dinesh_100.jpg" class="attachment-large size-large">
-                                                                            </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank"> Dinesh Thomas </a></h5> <p style="color:black;"> Chief Innovation Officer at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
 
-                                                        <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/sagala_100.jpg" class="attachment-large" alt="">
-                                                                            </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/sagara-sumathipala-275a4b38/" target="_blank"> Dr. Sagara Sumathipala </a></h5> <p style="color:black;">Secretary - CIAI at SLAAI/ Senior Lecturer, University of Moratuwa </p></center>
-                                                                        </div>
+                                                        <!-- Collaps start-->
+
+                                                        <div id="accordion" role="tablist" aria-multiselectable="true" style="width:100%;">
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingOne">
+                                                                    <h5 class="mb-0">
+                                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                                            1. What is FinTech?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+
+                                                                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                                                    <div class="card-block">
+                                                                         Any technological innovation in the financial sector, including but not limited to innovations in financial literacy and education, retail banking, investment, consumer analytics, data management and even crypto currencies.                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingTwo">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                            2. What is a Hackathon?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                                    <div class="card-block">
+                                                                        A hackathon is a fun event in which software developers, designers, and project managers collaborate intensively to develop awesome projects in the given period of time.
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div> 
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                            3. What makes this hackathon different?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+This is the first time in Sri Lanka, a hackathon is done solely focusing on the financial sector – a fintech hackathon.                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                                                                            4. Why should I be interested?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+8. Do you like challenges? Do you think out of the box? Are you interested in collaboratively working with others to "hack " a real world problem? Then the Hackathon is for you!                                                                </div>
+                                                            </div>     
+                                                        </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+                                                                            5. What if I've never been to a hackathon?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                         Perfect! Come and have a great first experience!
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapseThree">
+                                                                            6. Do I have to be a programmer?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        A successful hackathon team is usually made-up of a diverse set of individuals. These individuals will have a variety of skills from programming, designing to idea generation. Business folk, designers and anyone with bright ideas and energy are most welcome! Basically, anyone who has the passion, enthusiasm energy and ability to think out of the box can participate!
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                             <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapseThree">
+                                                                           7. Will there be prizes?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        Yes.</br>
+                                                                        1<sup>st</sup> Place – Rs. 250, 000/-, </br>2<sup>nd</sup> Place – Rs. 150,000  </br>3<sup>rd</sup> Place - Rs. 75,000/-  </br>Financing up to Rs. 1,000,000/-
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapseThree">
+                                                                           8. Who owns the intellectual property for my idea?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        You. Your idea is yours.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapseThree">
+                                                                          9. Who can participate?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        Corporates, University students, FinTech companies, Startups, Vendors are all invited.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapseThree">
+                                                                          10. What is the permitted team size?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        2 – 4 individuals. There should be a team leader for each team.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapseThree">
+                                                                          11. How does the hackathon work?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        Applicants may submit their applications to participate in the Hackathon by proposing to build a Proof of Concept FinTech Product within an allotted 12 hours period. Shortlisted applicants will be invited to participate at the Hackathon, at the conclusion of which, the built solution must be presented to a panel of judges by whom the winners will be selected. Mentors will be available right through the Hackathon to assist teams and answer any questions the participants might have.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapseThree">
+                                                                         12. What is the schedule?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        <img src="https://www.fintechack.com/assets/img/agenda.png" alt="schedule">
+
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapseThree">
+                                                                          13. Should I bring a laptop?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       Yes, you need to bring a laptop.
+
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapseThree">
+                                                                          14. Will there be free food?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       Yes. Dinner, breakfast and unlimited soft drinks & coffee.
+
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapseThree">
+                                                                         15. Is there a hackathon code of conduct?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       Yes, please  <a href="https://www.fintechack.com/assets/FinTecHack2017%20-%20Code%20of%20Conduct.pdf"  target="_blank">click here</a> for details.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapseThree">
+                                                                          16. Can I get a head start on my hack??
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse16" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       To ensure that we create a level playing field for all participants, all codes and assets must be created during the hackathon. You need to strictly adhere to this rule. Not doing so may result in disqualification. However, you are free to ideate prior to the event.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapseThree">
+                                                                          17. Can I use external APIs, services or SDKs?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse17" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       Yes, you can use them as long as you do not violate any copy rights or they are under the open source licensing.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="false" aria-controls="collapseThree">
+                                                                          18. Who is mentoring the teams?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse18" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       Please click here to view your mentors.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="false" aria-controls="collapseThree">
+                                                                          19. Who is judging the teams?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                        Please  <a href="https://www.fintechack.com/#judges" target="blank">click here to view<a> your judges.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="false" aria-controls="collapseThree">
+                                                                          20. What are the judges looking for?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse20" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       The judges are looking for unique and interesting ideas that could potentially disrupt the industry. The judges will also be looking at the design and technical architecture of the solution, as well as the business strategy & execution capabilities to take the product to market.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+                                                            
+                                                            
+                                                            <div class="card">
+                                                                <div class="card-header" role="tab" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapseThree">
+                                                                          21. How long do I have to pitch to the panel of judges?
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                    <div class="card-block">
+                                                                       A maximum of 5 minutes for set-up, presentation and demo, followed by Q&A for approximately 5 minutes.
+                                                                    </div>
+                                                                </div>     
+                                                            </div>
+
+                                                     <!-- Collasp end-->
 
 
                                                     </div>
                                             </section>
 
-                                           
+
 
 
                                         </div>
@@ -1160,278 +1012,95 @@
 
 
 
-                     
-                    <!-- ........judge panel end ........ -->
 
-                    
-<!--                    
-                     mentor panel  
-                     <section   data-id="xg13l1d" style="background-color: #7acc82" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                               id="judges" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div data-id="vuhtr3s" class="elementor-element elementor-element-vuhtr3s elementor-column elementor-col-100 elementor-top-column"
-                                     data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="b2znyqq" class="elementor-element elementor-element-b2znyqq elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 style="text-align:center;margin-bottom: 1em" class="elementor-heading-title elementor-size-xxl">MENTORS</h2>
-                                                </div>
-
-                                                
-                                            </div>
-                                            <div data-id="53clr2b" class="elementor-element elementor-element-53clr2b elementor-widget elementor-widget-text-editor"
-                                                 data-element_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <section data-id="3nbi4mv" class="elementor-element elementor-element-3nbi4mv elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-inner-section"
-                                                     data-element_type="section">
-                                                <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-row">
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/fayaz_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/fayaz-hudah-4108689" target="_blank">Fayaz Hudah </a></h5> 
-                                                                            <p style="color:black;"> Programme Head at ICT Agency of Sri Lanka (ICTA) </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/thilak_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/thilak-piyadigama-3880b9a/" target="_blank"> Thilak Piyadigama </a></h5> <p style="color:black;">Chief Operating Officer at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/asanka_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/asanka-dharmawansa-465b4815/" target="_blank"> Dr. Asanka Dharmawansa </a></h5> <p style="color:black;">Lecturer, Wayamba University of Sri Lanka</p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/bandara_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> Bandara Jayathilake </h5> <p style="color:black;">DGM SME Banking at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="esm0oyw" class="elementor-element elementor-element-esm0oyw elementor-column elementor-col-25 elementor-inner-column"
-                                                             data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/dinesh_100.jpg" class="attachment-large size-large">
-                                                                            </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank"> Dinesh Thomas </a></h5> <p style="color:black;"> Chief Innovation Officer at Nations Trust Bank PLC </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/sagala_100.jpg" class="attachment-large" alt="">
-                                                                            </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/sagara-sumathipala-275a4b38/" target="_blank"> Dr. Sagara Sumathipala </a></h5> <p style="color:black;">Secretary - CIAI at SLAAI/ Senior Lecturer, University of Moratuwa </p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div> 
+                    <!-- ........FAQ end ........ -->
 
 
-                                                    </div>
-                                            </section>
-
-                                           
 
 
-                                        </div>
-                                    </div>
-                                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- mentor panel end here -->
+
+
+
+<!--Contact Info-->
+<section data-id="xg13l1w" style="background-color:rgb(214, 219, 224)" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+         id="contact" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-row">
+            <div data-id="vuhtr3s" class="elementor-element elementor-element-vuhtr3s elementor-column elementor-col-100 elementor-top-column"
+                 data-element_type="column">
+                <div class="elementor-column-wrap elementor-element-populated">
+                    <div class="elementor-widget-wrap">
+                        <div data-id="b2znyqq" class="elementor-element elementor-element-b2znyqq elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                            <div class="elementor-widget-container">
                             </div>
                         </div>
-                    </section>
-                     mentor panel end here 
-                    
-                    -->
-                    <!-- FAQ -->
-                    
-                    <!-- FAQ END-->
-                    
-                    <!-- ................
-
-					organizers form with logs needs to aling and hosting and collbaration separatelty 
-                    	.................. -->
-
-
-                    <section style="background-color: ffffff" data-id="xg13l1w" style="background-color:lightgray" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                             id="sponsor" data-element_type="section">
-
-                        <div class="col-md-12 grid">
-                            <div class="row">
-                                <div class="col-md-4">
-                                 
-                                <h2 class="elementor-heading-title elementor-size-xxl">HOSTED BY</h2>
-                                 <div class="elementor-image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Nations_Trust_Bank_logo.png" class="attachment-large size-large" alt="">
-                                </div>
-                                    
-
-                            </div>
-                            <div class="col-md-8">
-                                
-                                 
-                                <div style="float: right;" class="col-md-2"></div>
-                               <div class="col-md-12">
-                                 <div class="row" style="float: right;">
-                                    <div class="col-md-12">
-                                    <h3 class="elementor-heading-title elementor-size-xxl">IN COLLABORATION WITH</h3>
-                                </div> 
-                                       <div class="col-md-6">
-                                        
-                                       
-                                            <center><img width="400" height="300" src="<?php echo base_url(); ?>assets/img/SLAAiLogo.png" class="attachment-large size-large"></center>
-                                                                           
-                                            <h3 style="text-align: center;">Sri Lanka Association for Artificial Intelligence</h3>
-                                        
-                                   </div>
-
-                                   <div class="col-md-6" style="margin-left: -3em">
-                                       
-                                            <center><img style="width:14em;height:10em;" src="<?php echo base_url(); ?>assets/img/intecsLogo.jpg" class="attachment-large size-large" alt=""></center>
-                                                                        
-                                            <h3 style="text-align: center;">Information Technology Society </br>Faculty of Information Technology </br> University of Moratuwa</h3>
-                                        
-                                   </div>
-                                 </div>
-                               </div>
-
-                            </div>
-                            </div>
-                        </div>
-                    </section>
-
-       
-
-
-
-        <!--Contact Info-->
-        <section data-id="xg13l1w" style="background-color:rgb(214, 219, 224)" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                 id="contact" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-row">
-                    <div data-id="vuhtr3s" class="elementor-element elementor-element-vuhtr3s elementor-column elementor-col-100 elementor-top-column"
-                         data-element_type="column">
-                        <div class="elementor-column-wrap elementor-element-populated">
-                            <div class="elementor-widget-wrap">
-                                <div data-id="b2znyqq" class="elementor-element elementor-element-b2znyqq elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                    </div>
-                                </div>
-                                <section data-id="3nbi4mv" class="elementor-element elementor-element-3nbi4mv elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-inner-section"
-                                         data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div  style="text-align:center" data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-50 elementor-inner-column"
-                                                  data-element_type="column">
-                                                <div class="elementor-column-wrap">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                            <h1>Dilan Wijerathne</h1>
-                                                            <p>Innovationist</br>Nations Trust Bank</br>Kaffeine Lab</br> No. 53/3B,
-Gregory's </br> Colombo 7</p>
-                                                            <h4>Tel No : +94 77 2772 779 </br> Email : dilan.wijerathne@nationstrust.com</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div style="text-align:center" data-id="esm0oyw" style="margin-left:2em" class="elementor-element elementor-element-esm0oyw elementor-column elementor-col-50 elementor-inner-column"
-                                                 data-element_type="column">
-                                                <div class="elementor-column-wrap">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                            <h1>Isira Samaraweera</h1>
-                                                            <p>President</br>INTECS</br>Faculty of Information Technology</br>University of Moratuwa</p>
-                                                            <h4>Tel No : +94 71 3655 350 </br> Email : isirakasun@gmail.com</h4>
-                                                        </div>
-                                                    </div>
+                        <section data-id="3nbi4mv" class="elementor-element elementor-element-3nbi4mv elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-inner-section"
+                                 data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div  style="text-align:center" data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-50 elementor-inner-column"
+                                          data-element_type="column">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <h1>Dilan Wijerathne</h1>
+                                                    <p>Innovationist</br>Nations Trust Bank</br>Kaffeine Lab</br> No. 53/3B,
+                                                        Gregory's </br> Colombo 7</p>
+                                                    <h4>Tel No : +94 77 2772 779 </br> Email : dilan.wijerathne@nationstrust.com</h4>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                    <div style="text-align:center" data-id="esm0oyw" style="margin-left:2em" class="elementor-element elementor-element-esm0oyw elementor-column elementor-col-50 elementor-inner-column"
+                                         data-element_type="column">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <h1>Isira Samaraweera</h1>
+                                                    <p>President</br>INTECS</br>Faculty of Information Technology</br>University of Moratuwa</p>
+                                                    <h4>Tel No : +94 71 3655 350 </br> Email : isirakasun@gmail.com</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <div id="omw-415" class="omw-modal" style="overflow-y: hidden; outline: none;" tabindex="0">
+<div id="omw-415" class="omw-modal" style="overflow-y: hidden; outline: none;" tabindex="0">
 
-            <a href="##" class="omw-close-modal"></a>
+    <a href="##" class="omw-close-modal"></a>
 
-            <div class="omw-modal-inner clr">
-                <div class="ae_data elementor elementor-411">
-                </div>
-
-            </div>
-
+    <div class="omw-modal-inner clr">
+        <div class="ae_data elementor elementor-411">
         </div>
 
+    </div>
 
-       
-
-
-      
-
-       
-
-        
+</div>
 
 
-        
+
+
+
+
+
+
+
+
+
+

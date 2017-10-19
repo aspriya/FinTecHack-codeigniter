@@ -140,10 +140,10 @@ class Regisration_controller extends CI_Controller {
     function sendemail($email){
     // configure the email setting
       $config['protocol'] = 'smtp';
-      $config['smtp_host'] = 'ssl://smtp.fintechhack.lk'; //smtp host name
-      $config['smtp_port'] = '465'; //smtp port number
-      $config['smtp_user'] = 'fintechhacklk@fintechack.com';
-      $config['smtp_pass'] = 'fintechhacklk'; //$from_email password
+      $config['smtp_host'] = 'ssl://smtp.fintechack.com'; //smtp host name
+      $config['smtp_port'] = '25'; //smtp port number
+      $config['smtp_user'] = 'fintechhacklk';
+      $config['smtp_pass'] = 'Capevisit@123'; //$from_email password
       $config['mailtype'] = 'html';
       $config['charset'] = 'iso-8859-1';
       $config['wordwrap'] = TRUE;

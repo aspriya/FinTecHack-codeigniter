@@ -57,6 +57,7 @@ $route['groups'] = 'Groups_controller/index';
 $route['get_group_details'] = 'Groups_controller/get_group_details';
 $route['get_member_details'] = 'Groups_controller/get_member_details';
 $route['get_registered_count'] = 'Welcome/get_registered_groups_count';
+$route['faq'] = 'Welcome/faq';
 $route['get_groups_new'] = 'RegistrationController/get_groups';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
