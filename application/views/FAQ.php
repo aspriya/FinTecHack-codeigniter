@@ -552,7 +552,7 @@
                                                                         <!--
     
                                                                             <div class="elementor-widget-container">
-                                                                            <img src="<?php //echo base_url();  ?>assets/img/finTechHackLogoNEW.png" style="height:8em;width:15em"></img>
+                                                                            <img src="<?php //echo base_url(); ?>assets/img/finTechHackLogoNEW.png" style="height:8em;width:15em"></img>
                                                                         </div>
                                                                         -->
                                                                     </div>
@@ -571,15 +571,9 @@
 
                                                                                     <nav itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" id="elementor-navigation" class="elementor-navigation"
                                                                                          role="navigation" aria-label="Elementor Menu" aria-expanded="false">
-                                                                                        <ul id="elementor-navmenu" class="elementor-nav-menu">
-                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#info" style="background-color: #2cb5e9">INFO</a></li>
-                                                                                            <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a href="#prizes" style="background-color: #2cb5e9">PRIZES</a></li>
-                                                                                            <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236"><a href="#venue" style="background-color: #2cb5e9">VENUE</a></li>
-
-                                                                                            <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#sponsor" style="background-color: #2cb5e9">ORGANIZERS</a></li>
-                                                                                            <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#register" style="background-color: #2cb5e9">REGISTER</a></li>
-                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#judges" style="background-color: #2cb5e9">JUDGES</a></li>
-                                                                                            <li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-239"><a href="#contact" style="background-color: #2cb5e9">CONTACT</a></li>
+                                                                                        <ul id="elementor-navmenu" class="elementor-nav-menu" style="background-color : #fff">
+<!--                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#info" style="background-color: #2cb5e9">INFO</a></li>-->
+                                                                                            <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a href="<?php echo base_url(); ?>" style="background-color: #2cb5e9">BACK</a></li>
                                                                                         </ul>
                                                                                     </nav>
                                                                                 </div>
@@ -941,7 +935,7 @@ This is the first time in Sri Lanka, a hackathon is done solely focusing on the 
                                                                 </div>
                                                                 <div id="collapse18" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                                                                     <div class="card-block">
-                                                                       Please click here to view your mentors.
+                                                                       Please <a href="https://www.fintechack.com/#mentors" target="blank">click here </a> to view your mentors.
                                                                     </div>
                                                                 </div>     
                                                             </div>

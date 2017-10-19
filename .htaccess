@@ -1,20 +1,20 @@
-# Begin cache control #
-ExpiresActive on
-ExpiresDefault "now plus 60 minutes"
-ExpiresByType text/html "now plus 60 minutes"
-<FilesMatch "\.(css|png|bmp|ico|htm|gff|html|js|jpg|jpeg|gif|gcf)$">
-FileETag MTime Size
-ExpiresDefault "now plus 60 minutes"
-</FilesMatch>
+## Begin cache control #
+#ExpiresActive on
+#ExpiresDefault "now plus 60 minutes"
+#ExpiresByType text/html "now plus 60 minutes"
+#<FilesMatch "\.(css|png|bmp|ico|htm|gff|html|js|jpg|jpeg|gif|gcf)$">
+#FileETag MTime Size
+#ExpiresDefault "now plus 60 minutes"
+#</FilesMatch>
 
 
-# End cache control #
+## End cache control #
 
 
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.fintechack.com/$1 [R,L]
-RewriteCond $1 !^(index\.php|public|\.txt)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?$1
+#RewriteEngine On 
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://www.fintechack.com/$1 [R,L]
+#RewriteCond $1 !^(index\.php|public|\.txt)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?$1

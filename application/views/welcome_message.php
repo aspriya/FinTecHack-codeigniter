@@ -611,14 +611,15 @@
 
                                                                                     <nav itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" id="elementor-navigation" class="elementor-navigation"
                                                                                          role="navigation" aria-label="Elementor Menu" aria-expanded="false">
-                                                                                        <ul id="elementor-navmenu" class="elementor-nav-menu">
-                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#info" style="background-color: #2cb5e9">INFO</a></li>
+                                                                                        <ul id="elementor-navmenu" class="elementor-nav-menu" style="background-color : #fff">
+<!--                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#info" style="background-color: #2cb5e9">INFO</a></li>-->
                                                                                             <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a href="#prizes" style="background-color: #2cb5e9">PRIZES</a></li>
                                                                                             <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236"><a href="#venue" style="background-color: #2cb5e9">VENUE</a></li>
 
                                                                                             <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#sponsor" style="background-color: #2cb5e9">ORGANIZERS</a></li>
                                                                                             <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="#register" style="background-color: #2cb5e9">REGISTER</a></li>
                                                                                             <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#judges" style="background-color: #2cb5e9">JUDGES</a></li>
+                                                                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#mentors" style="background-color: #2cb5e9">MENTORS</a></li>
                                                                                             <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="https://www.fintechack.com/faq" target="blank" style="background-color: #2cb5e9">FAQ</a></li>
                                                                                             <li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-239"><a href="#contact" style="background-color: #2cb5e9">CONTACT</a></li>
                                                                                         </ul>
@@ -1063,7 +1064,7 @@
                                                                             <div class="elementor-image">
                                                                                 <img src="<?php echo base_url(); ?>assets/img/fayaz_100.jpg" class="attachment-large size-large" alt="">
                                                                             </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/fayaz-hudah-4108689" target="_blank">Fayaz Hudah </a></h5> 
+                                                                            <center> <h5> <a href="https://www.linkedin.com/in/fayaz-hudah-4108689" target="_blank">Mr. Fayaz Hudah </a></h5> 
                                                                             <p style="color:black;"> Programme Head at ICT Agency of Sri Lanka (ICTA) </p></center>
                                                                         </div>
                                                                     </div>
@@ -1079,7 +1080,7 @@
                                                                             <div class="elementor-image">
                                                                                 <img src="<?php echo base_url(); ?>assets/img/thilak_100.jpg" class="attachment-large size-large" alt="">
                                                                             </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/thilak-piyadigama-3880b9a/" target="_blank"> Thilak Piyadigama </a></h5> <p style="color:black;">Chief Operating Officer at Nations Trust Bank PLC </p></center>
+                                                                            <center> <h5> <a href="https://www.linkedin.com/in/thilak-piyadigama-3880b9a/" target="_blank">Mr. Thilak Piyadigama </a></h5> <p style="color:black;">Chief Operating Officer at Nations Trust Bank PLC </p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1107,7 +1108,7 @@
                                                                             <div class="elementor-image">
                                                                                 <img src="<?php echo base_url(); ?>assets/img/bandara_100.jpg" class="attachment-large size-large" alt="">
                                                                             </div>
-                                                                            <center> <h5> Bandara Jayathilake </h5> <p style="color:black;">DGM SME Banking at Nations Trust Bank PLC </p></center>
+                                                                            <center> <h5>Mr. Bandara Jayathilake </h5> <p style="color:black;">DGM SME Banking at Nations Trust Bank PLC </p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1122,7 +1123,7 @@
                                                                             <div class="elementor-image">
                                                                                 <img src="<?php echo base_url(); ?>assets/img/dinesh_100.jpg" class="attachment-large size-large">
                                                                             </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank"> Dinesh Thomas </a></h5> <p style="color:black;"> Chief Innovation Officer at Nations Trust Bank PLC </p></center>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank">Mr. Dinesh Thomas </a></h5> <p style="color:black;"> Chief Innovation Officer at Nations Trust Bank PLC </p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1134,7 +1135,7 @@
                                                                 <div class="elementor-widget-wrap">
                                                                     <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
                                                                                 <img src="<?php echo base_url(); ?>assets/img/sagala_100.jpg" class="attachment-large" alt="">
                                                                             </div>
                                                                              <center> <h5> <a href="https://www.linkedin.com/in/sagara-sumathipala-275a4b38/" target="_blank"> Dr. Sagara Sumathipala </a></h5> <p style="color:black;">Secretary - CIAI at SLAAI/ Senior Lecturer, University of Moratuwa </p></center>
@@ -1164,10 +1165,10 @@
                     <!-- ........judge panel end ........ -->
 
                     
-<!--                    
-                     mentor panel  
-                     <section   data-id="xg13l1d" style="background-color: #7acc82" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
-                               id="judges" data-element_type="section">
+                    
+                <!--     mentor panel  -->
+                     <section   data-id="xg13l1d" style="background-color: #a7ccc0" class="elementor-element elementor-element-xg13l1w elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+                               id="mentors" data-element_type="section">
                         <div class="elementor-container elementor-column-gap-default">
                             <div class="elementor-row">
                                 <div data-id="vuhtr3s" class="elementor-element elementor-element-vuhtr3s elementor-column elementor-col-100 elementor-top-column"
@@ -1198,11 +1199,11 @@
                                                                 <div class="elementor-widget-wrap">
                                                                     <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/fayaz_100.jpg" class="attachment-large size-large" alt="">
+                                                                            <div class="elementor-image" style="padding-top: 48px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/chaminda.jpg" class="attachment-large size-large" height="100px" width="100px" alt="">
                                                                             </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/fayaz-hudah-4108689" target="_blank">Fayaz Hudah </a></h5> 
-                                                                            <p style="color:black;"> Programme Head at ICT Agency of Sri Lanka (ICTA) </p></center>
+                                                                            <center> <h5> <a href="https://www.linkedin.com/in/chamindas/" target="_blank">Mr. Chaminda Senewiratne</a></h5> 
+                                                                            <p style="color:black;">Chief Manager - FriMi Digital Lifestlye Service at Nations Trust Bank PLC</p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1214,10 +1215,24 @@
                                                                 <div class="elementor-widget-wrap">
                                                                     <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/thilak_100.jpg" class="attachment-large size-large" alt="">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/andrew.jpg" height="100px" width="100px"  class="attachment-large size-large" alt="">
                                                                             </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/thilak-piyadigama-3880b9a/" target="_blank"> Thilak Piyadigama </a></h5> <p style="color:black;">Chief Operating Officer at Nations Trust Bank PLC </p></center>
+                                                                            <center> <h5> <a href="https://www.linkedin.com/in/andrew-ariaratnam-5b717012/" target="_blank">Mr. Andrew Ariaratnam</a></h5> <p style="color:black;">Senior Manager - Digital Banking at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/dilan.jpg" class="attachment-large size-large" height="100px" width="100px" alt="" style="height: 100px;">
+                                                                            </div>
+                                                                            <center> <h5> <a href="https://www.linkedin.com/in/dilanwijerathne/" target="_blank">Mr. Dilan Wijerathne</a></h5> <p style="color:black;">Chairman - CIAI at SLAAI/ Innovationist at Nations Trust Bank PLC</p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1229,23 +1244,9 @@
                                                                     <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/asanka_100.jpg" class="attachment-large size-large" alt="">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/dinesh_100.jpg" class="attachment-large size-large" alt="">
                                                                             </div>
-                                                                            <center> <h5> <a href="https://www.linkedin.com/in/asanka-dharmawansa-465b4815/" target="_blank"> Dr. Asanka Dharmawansa </a></h5> <p style="color:black;">Lecturer, Wayamba University of Sri Lanka</p></center>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="o7d63l8" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/bandara_100.jpg" class="attachment-large size-large" alt="">
-                                                                            </div>
-                                                                            <center> <h5> Bandara Jayathilake </h5> <p style="color:black;">DGM SME Banking at Nations Trust Bank PLC </p></center>
+                                                                            <center> <h5><a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank">Mr. Dinesh Thomas</a></h5> <p style="color:black;">Chief Innovation Officer at Nations Trust Bank PLC</p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1257,10 +1258,10 @@
                                                                 <div class="elementor-widget-wrap">
                                                                     <div data-id="wyxuqe5" class="elementor-element elementor-element-wyxuqe5 elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/dinesh_100.jpg" class="attachment-large size-large">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/shaan.jpg" height="100px" width="100px" class="attachment-large size-large">
                                                                             </div>
-                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dinesh-thomas-723a6517/" target="_blank"> Dinesh Thomas </a></h5> <p style="color:black;"> Chief Innovation Officer at Nations Trust Bank PLC </p></center>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/shaan-wickremesinghe-8a085579/" target="_blank">Ms. Shaan Wickremesinghe</a></h5> <p style="color:black;"> Chief Marketing Officer at Nations Trust Bank PLC </p></center>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1272,8 +1273,8 @@
                                                                 <div class="elementor-widget-wrap">
                                                                     <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img src="<?php echo base_url(); ?>assets/img/sagala_100.jpg" class="attachment-large" alt="">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/sagala_100.jpg"  height="100px" width="100px" class="attachment-large" alt="">
                                                                             </div>
                                                                              <center> <h5> <a href="https://www.linkedin.com/in/sagara-sumathipala-275a4b38/" target="_blank"> Dr. Sagara Sumathipala </a></h5> <p style="color:black;">Secretary - CIAI at SLAAI/ Senior Lecturer, University of Moratuwa </p></center>
                                                                         </div>
@@ -1281,9 +1282,110 @@
                                                                 </div>
                                                             </div>
                                                         </div> 
+                                                        
+                                                        
+                                                        
 
 
                                                     </div>
+                                                </div>   
+                                                    
+                                                    <!-- eliminator gap -->
+                                                 <div class="elementor-container elementor-column-gap-default">
+                                                     <div class="elementor-row">
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/nisala.jpg"  height="100px" width="100px" class="attachment-large" alt="" style="height: 100px;">
+                                                                            </div>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/nisala-kodippili-50435b2b/" target="_blank">Mr. Nisala Kodippili</a></h5> <p style="color:black;">Chief Information Officer at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/dimuth.jpg"  height="100px" width="100px" class="attachment-large" alt="">
+                                                                            </div>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/dimuth-sigera-cfa-293036b/" target="_blank">Mr. Dimuth Sigera</a></h5> <p style="color:black;">Senior Manager - SME Banking at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img//mentors/ranmore.jpg"  height="100px" width="100px" class="attachment-large" alt="">
+                                                                            </div>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/ranmore-vandort-jp-lssbb-7159b578/" target="_blank">Mr. Ranmore VanDort </a></h5> <p style="color:black;">Lean Transformation Manager at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/yamuna.jpg"  height="100px" width="100px" class="attachment-large" alt="">
+                                                                            </div>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/yamuna-silva-38a22539/" target="_blank">Ms. Yamuna Silva</a></h5> <p style="color:black;">Senior Manager – Legal at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image" style="padding-top: 24px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/suresh.jpg"  height="100px" width="100px" class="attachment-large" alt="">
+                                                                            </div>
+                                                                             <center> <h5> <a href="https://www.linkedin.com/in/sureshemmanuel/" target="_blank">Mr. Suresh Emmanuel</a></h5> <p style="color:black;">Senior Manager –Information Security at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                         <div data-id="o7d63l2" class="elementor-element elementor-element-o7d63l8 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="t6njqvu" class="elementor-element elementor-element-t6njqvu elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image" style="padding-top: 48px;">
+                                                                                <img src="<?php echo base_url(); ?>assets/img/mentors/madara.png"  height="100px" width="100px" class="attachment-large" alt="">
+                                                                            </div>
+                                                                             <center> <h5>Ms. Madara Kumarasinghe</h5> <p style="color:black;">Manager - Strategic Marketing at Nations Trust Bank PLC</p></center>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                         
+                                                     </div>
+                                                 </div>  
                                             </section>
 
                                            
@@ -1295,9 +1397,9 @@
                             </div>
                         </div>
                     </section>
-                     mentor panel end here 
+                   
                     
-                    -->
+                    
                     <!-- FAQ -->
                     
                     <!-- FAQ END-->
